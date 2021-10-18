@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+    color: #aaa;
+}
+
+hr {
+    width: 83%;
+    margin: auto;
+}
+
+.album-wrapper{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+    padding-top: 2px;
+}
+
+footer p {
+    text-align: center;
+    color: #aaa;
+    font-size: 1em;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    hr {
+        width: 93%;
+        margin: auto;
+    }
+
+    .album-wrapper{
+        margin-bottom: 52px;
+    }
+}
