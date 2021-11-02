@@ -10,7 +10,7 @@ app.use(express.urlencoded({
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'yourpassword',
+    password: 'Mysql365',
     database: 'art'
 });
 
